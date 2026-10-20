@@ -1,26 +1,1002 @@
 <!DOCTYPE html>
 <html lang="bn">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%238E1B3A'/><text x='50%' y='55%' font-size='42' font-family='serif' font-weight='bold' fill='%23D4AF37' text-anchor='middle' dominant-baseline='middle'>E</text></svg>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edel Bangladesh | প্রিমিয়াম চুড়ি ও ব্রাইডাল জুয়েলারি কালেকশন</title>
-    <meta name="description" content="Edel Bangladesh - ভাইরাল চুড়ি কম্বো, বউ চুড়ি ২৪ পিস সেট এবং লাক্সারি জুয়েলারি গিফট হ্যাম্পার। সারা দেশে ক্যাশ অন ডেলিভারি।" />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://cryptowebbuild.github.io/edel-bangladesh/" />
-    <meta property="og:title" content="Edel Bangladesh | প্রিমিয়াম চুড়ি ও ব্রাইডাল জুয়েলারি" />
-    <meta property="og:description" content="ইনবক্সে অপেক্ষার দিন শেষ — সরাসরি সাইজ সিলেক্ট করে অর্ডার করুন! ১০০% ক্যাশ অন ডেলিভারি।" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1200&q=80" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edel Bangladesh | প্রিমিয়াম চুড়ি ও ব্রাইডাল জুয়েলারি কালেকশন</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Hind Siliguri', 'Plus Jakarta Sans', sans-serif; background-color: #FFFDF9; color: #1D1115; }
+    .font-royal { font-family: 'Cinzel', serif; }
+    .rose-gold-grad { background: linear-gradient(135deg, #8E1B3A 0%, #590D22 100%); }
+    .gold-accent { background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 50%, #F3E5AB 100%); }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #FFF5F7; }
+    ::-webkit-scrollbar-thumb { background: #C78295; border-radius: 9999px; }
+  </style>
+</head>
+<body class="min-h-screen pb-20 md:pb-0">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+  <!-- Pitch Mode Banner for Client Meeting -->
+  <div class="bg-zinc-950 text-amber-300 border-b border-amber-500/20 px-4 py-2 text-xs">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+        <span class="font-semibold text-white">Edel Bangladesh (facebook.com/edelbangladesh)</span>
+        <span class="hidden sm:inline text-zinc-400">— প্রিমিয়াম সেলস অপ্টিমাইজড ওয়েবসাইট ডেমো</span>
+      </div>
+      <button onclick="togglePitchModal()" class="bg-amber-400/20 hover:bg-amber-400/30 text-amber-300 border border-amber-400/50 px-3.5 py-1 rounded-full text-[11px] font-bold transition flex items-center gap-1.5 shadow-sm">
+        <span>📈 পেজ ওনার বেনিফিট দেখুন (Why Website?)</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Collapsible Merchant Pitch Modal -->
+  <div id="pitchModal" class="hidden bg-gradient-to-r from-zinc-900 via-rose-950 to-zinc-900 text-white border-b-2 border-amber-400/60 p-6 md:p-8 transition-all">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-start justify-between gap-4 mb-5">
+        <div>
+          <span class="bg-amber-400 text-zinc-950 text-[11px] font-extrabold px-3 py-0.5 rounded-full uppercase tracking-wider">
+            For Edel Bangladesh Admin & Page Owner
+          </span>
+          <h3 class="text-xl md:text-3xl font-extrabold mt-2 text-white">
+            কেন "Inbox for Order"-এর চেয়ে এই ওয়েবসাইটটি আপনার সেলস ২ থেকে ৩ গুণ বাড়াবে?
+          </h3>
+        </div>
+        <button onclick="togglePitchModal()" class="text-zinc-400 hover:text-white p-1 text-2xl font-bold">&times;</button>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-sm">
+        <div class="bg-white/5 border border-white/10 p-4 rounded-2xl">
+          <div class="text-amber-400 font-bold text-base mb-1">১. ২৪/৭ অটো অর্ডারিং</div>
+          <p class="text-zinc-300 text-xs leading-relaxed">
+            রাত ২টায় পেজের ইনবক্স খালি থাকলেও কাস্টমার চুড়ির সাইজ (২.৪/২.৬/২.৮) ও কালার বেছে সরাসরি অর্ডার কনফার্ম করতে পারবে।
+          </p>
+        </div>
+        <div class="bg-white/5 border border-white/10 p-4 rounded-2xl">
+          <div class="text-amber-400 font-bold text-base mb-1">২. অ্যাভারেজ অর্ডার ভ্যালু বৃদ্ধি</div>
+          <p class="text-zinc-300 text-xs leading-relaxed">
+            "১,২০০ টাকায় ফ্রি ডেলিভারি" প্রগ্রেস বার থাকায় কাস্টমার ৩২০ টাকার ১টি কম্বোর জায়গায় ২-৩টি কম্বো একসাথে কার্টে যোগ করে।
+          </p>
+        </div>
+        <div class="bg-white/5 border border-white/10 p-4 rounded-2xl">
+          <div class="text-amber-400 font-bold text-base mb-1">৩. জিরো সার্ভার ও মেইনটেনেন্স খরচ</div>
+          <p class="text-zinc-300 text-xs leading-relaxed">
+            অর্ডার মেমো কাস্টমারের নাম, ফোন ও ঠিকানাসহ ১-ক্লিকে সরাসরি আপনার অফিশিয়াল হোয়াটসঅ্যাপে জমা হবে।
+          </p>
+        </div>
+        <div class="bg-amber-400/10 border border-amber-400/40 p-4 rounded-2xl flex flex-col justify-between">
+          <div>
+            <div class="text-amber-300 font-bold text-base mb-1">ডেভেলপার গ্যারান্টি</div>
+            <p class="text-zinc-200 text-xs leading-relaxed">
+              Crafted by <strong>Sagor Ahamed</strong> (CryptoWebBuild). আপনার পেজের ছবি, রিয়েল ফোন নাম্বার ও লোগো দিয়ে ২৪ ঘণ্টার মধ্যে ফুল্লি লাইভ করা সম্ভব।
+            </p>
+          </div>
+          <a href="https://wa.me/8801700000000" target="_blank" class="mt-3 bg-amber-400 text-zinc-950 font-bold py-2 rounded-xl text-center text-xs hover:bg-amber-300 transition">
+            সরাসরি সাগরের সাথে কথা বলুন &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Announcement Bar -->
+  <div class="rose-gold-grad text-white py-2.5 px-4 text-center text-xs md:text-sm font-medium shadow-sm">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 flex-wrap">
+      <span>✨ সারা বাংলাদেশে ১০০% ক্যাশ অন ডেলিভারি (পণ্য হাতে দেখে টাকা দিন) | <strong>১,২০০+ টাকার অর্ডারে ডেলিভারি চার্জ সম্পূর্ণ ফ্রি!</strong></span>
+      <span class="hidden md:inline-block bg-white/20 text-amber-200 px-2.5 py-0.5 rounded-full text-xs font-bold ml-2">
+        ফ্ল্যাশ অফার শেষ হতে বাকি: <span id="countdown">02:44:18</span>
+      </span>
+    </div>
+  </div>
+
+  <!-- Main Sticky Header -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-rose-100 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-3.5 flex items-center justify-between gap-4">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-full rose-gold-grad flex items-center justify-center text-amber-300 font-royal font-extrabold text-2xl shadow-md border-2 border-amber-300/50">
+          E
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <span class="font-royal font-extrabold text-xl md:text-2xl tracking-wider text-[#1D1115]">EDEL</span>
+            <span class="bg-rose-100 text-rose-800 text-[10px] font-bold px-2 py-0.5 rounded-full">BD</span>
+          </div>
+          <span class="text-[11px] text-rose-700 font-medium block leading-none">Churi • Bridal • Gift Combos</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-zinc-700">
+        <a href="#catalog" class="hover:text-rose-800 transition">চুড়ি ও কম্বো কালেকশন</a>
+        <a href="#custom-builder" class="hover:text-rose-800 transition flex items-center gap-1">
+          🎁 কাস্টম গিফট বক্স বানান
+        </a>
+        <button onclick="toggleSizeGuide()" class="hover:text-rose-800 transition flex items-center gap-1">
+          <span>📏 সাইজ গাইড</span>
+          <span class="bg-rose-100 text-rose-800 text-[10px] px-1.5 py-0.5 rounded-full font-bold">২.৪ / ২.৬ / ২.৮</span>
+        </button>
+        <a href="#reviews" class="hover:text-rose-800 transition">কাস্টমার রিভিউ</a>
+      </nav>
+
+      <div class="flex items-center gap-2.5">
+        <button onclick="toggleSizeGuide()" class="lg:hidden bg-rose-50 text-rose-900 border border-rose-200 px-3 py-2 rounded-xl text-xs font-bold">
+          📏 সাইজ
+        </button>
+        <button onclick="toggleCartDrawer()" class="relative bg-rose-50 hover:bg-rose-100 text-rose-950 border border-rose-200 px-3.5 py-2.5 rounded-xl font-bold text-xs md:text-sm flex items-center gap-2 transition">
+          <span>🛍️ ব্যাগ</span>
+          <span id="cartCountBadge" class="rose-gold-grad text-white text-xs px-2 py-0.5 rounded-full font-extrabold">1</span>
+        </button>
+        <a href="#checkout-section" class="hidden sm:flex rose-gold-grad text-white px-4 py-2.5 rounded-xl text-xs md:text-sm font-bold shadow-md items-center gap-1.5 transition">
+          <span>১-ক্লিকে অর্ডার &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-b from-[#FDF2F5] via-[#FFF9FA] to-[#FFFDF9] border-b border-rose-100 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 py-10 md:py-16 grid lg:grid-cols-12 gap-8 md:gap-12 items-center">
+      <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+        <div class="inline-flex items-center gap-2 bg-white px-4 py-1.5 rounded-full text-xs font-bold text-rose-800 shadow-sm border border-rose-200">
+          <span class="w-2.5 h-2.5 rounded-full bg-rose-600 animate-ping"></span>
+          <span>ইনবক্সে অপেক্ষার দিন শেষ — সরাসরি সাইজ সিলেক্ট করে অর্ডার করুন!</span>
+        </div>
+
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#1D1115] leading-[1.25]">
+          আপনার হাত রাঙিয়ে তুলুন <span class="text-rose-800 underline decoration-amber-400 decoration-wavy">Edel Bangladesh</span>-এর ভাইরাল চুড়ি ও গিফট কম্বোতে ✨
+        </h1>
+
+        <p class="text-zinc-600 text-sm md:text-base leading-relaxed max-w-2xl mx-auto lg:mx-0">
+          ৩২০ টাকার সিগনেচার চুড়ি কম্বো, ৭০০ টাকার ২৪ পিস ভাইরাল বউ চুড়ি থেকে শুরু করে প্রিমিয়াম গিফট হ্যাম্পার—সবকিছুই পাচ্ছেন এক জায়গায়। <strong>অগ্রিম ১ টাকাও দিতে হবে না</strong>; ডেলিভারি ম্যানের সামনে বক্স খুলে দেখে মূল্য পরিশোধ করুন!
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-3.5 justify-center lg:justify-start pt-1">
+          <a href="#catalog" class="rose-gold-grad text-white px-7 py-4 rounded-2xl font-bold text-base shadow-xl hover:opacity-95 transition flex items-center justify-center gap-2">
+            <span>🛍️ কম্বো কালেকশন ও দাম দেখুন</span>
+          </a>
+          <a href="#custom-builder" class="bg-white hover:bg-rose-50 text-rose-950 border-2 border-rose-200 px-6 py-4 rounded-2xl font-bold text-base transition flex items-center justify-center gap-2">
+            <span>🎁 নিজের মতো গিফট বক্স সাজান</span>
+          </a>
+        </div>
+
+        <div class="pt-4 grid grid-cols-3 gap-3 border-t border-rose-200/70 max-w-lg mx-auto lg:mx-0">
+          <div class="bg-white/80 p-3 rounded-xl border border-rose-100 text-center lg:text-left shadow-sm">
+            <div class="font-extrabold text-lg md:text-xl text-rose-900">১৫,০০০+</div>
+            <div class="text-[11px] text-zinc-500 font-medium">সফল ডেলিভারি</div>
+          </div>
+          <div class="bg-white/80 p-3 rounded-xl border border-rose-100 text-center lg:text-left shadow-sm">
+            <div class="font-extrabold text-lg md:text-xl text-rose-900">৪.৯/৫.০ ⭐</div>
+            <div class="text-[11px] text-zinc-500 font-medium">কাস্টমার স্যাটিসফ্যাকশন</div>
+          </div>
+          <div class="bg-white/80 p-3 rounded-xl border border-rose-100 text-center lg:text-left shadow-sm">
+            <div class="font-extrabold text-lg md:text-xl text-rose-900">১০০% COD</div>
+            <div class="text-[11px] text-zinc-500 font-medium">চেক করে মূল্য পরিশোধ</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-5">
+        <div class="bg-white p-5 rounded-3xl shadow-2xl border-2 border-amber-300/60 relative">
+          <div class="relative rounded-2xl overflow-hidden group">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=900&q=80" alt="Edel Signature Churi Combo" class="w-full h-80 object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute top-3 left-3 bg-zinc-950/90 text-amber-300 px-3.5 py-1.5 rounded-full text-xs font-bold border border-amber-400/40">
+              🔥 ফেসবুকের ভাইরাল কম্বো
+            </div>
+            <div class="absolute bottom-3 right-3 bg-rose-700 text-white px-3 py-1 rounded-lg text-xs font-bold shadow">
+              ২.৪, ২.৬ ও ২.৮ সাইজ রেডি স্টক
+            </div>
+          </div>
+          <div class="mt-4 space-y-3">
+            <div class="flex items-start justify-between">
+              <div>
+                <span class="text-[11px] font-bold text-rose-700 uppercase tracking-wider">#churi_by_edel</span>
+                <h3 class="text-lg font-extrabold text-zinc-900">Edel সিগনেচার ভেলভেট ও মেটাল চুড়ি কম্বো</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-xs text-zinc-400 line-through block">৳৪৫০</span>
+                <span class="text-2xl font-extrabold text-rose-800">৳৩২০</span>
+              </div>
+            </div>
+            <div class="flex items-center justify-between bg-rose-50/80 px-3.5 py-2.5 rounded-xl border border-rose-100 text-xs">
+              <span class="text-rose-950 font-semibold">⚡ আজকের অর্ডারে দ্রুত ডিসপ্যাচ</span>
+              <button onclick="quickOrder('edel-320-combo')" class="bg-rose-800 hover:bg-rose-900 text-white px-4 py-2 rounded-lg font-bold transition">
+                এখনই অর্ডার &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Free Delivery Progress Bar -->
+  <div class="max-w-7xl mx-auto px-4 -mt-5 relative z-20">
+    <div class="bg-white rounded-2xl shadow-lg border border-rose-200 p-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center shrink-0 font-bold text-lg">
+          🚚
+        </div>
+        <div>
+          <p id="freeDeliveryText" class="text-sm font-bold text-zinc-800">
+            আর মাত্র <span class="text-rose-700 font-extrabold">৳৮৮০</span> টাকার পণ্য যোগ করলেই <span class="underline decoration-rose-500 font-bold">সম্পূর্ণ ফ্রি ডেলিভারি!</span>
+          </p>
+          <div class="w-full sm:w-80 h-2.5 bg-rose-100 rounded-full overflow-hidden mt-1.5">
+            <div id="freeDeliveryBar" class="h-full bg-gradient-to-r from-rose-700 via-pink-600 to-amber-500 rounded-full transition-all duration-500" style="width: 27%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3 text-xs font-semibold text-zinc-600">
+        <span>বর্তমান ব্যাগ: <strong id="headerSubtotal" class="text-rose-800 text-sm">৳৩২০</strong></span>
+        <a href="#checkout-section" class="bg-zinc-900 text-white px-4 py-2 rounded-xl font-bold hover:bg-zinc-800 transition">
+          অর্ডার ফর্মে যান &darr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Catalog -->
+  <section id="catalog" class="max-w-7xl mx-auto px-4 py-12 md:py-16">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-widest text-rose-800 bg-rose-100 px-3 py-1 rounded-full">
+          Official Live Catalog
+        </span>
+        <h2 class="text-2xl md:text-4xl font-extrabold text-zinc-900 mt-2">
+          পছন্দের চুড়ি ও জুয়েলারি কম্বো বেছে নিন
+        </h2>
+        <p class="text-sm text-zinc-600 mt-1">
+          কার্ড থেকেই সরাসরি হাতের সাইজ (২.৪ / ২.৬ / ২.৮) ও কালার সিলেক্ট করতে পারবেন
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2">
+        <button onclick="filterCategory('all')" class="cat-btn active px-3.5 py-2 rounded-xl text-xs font-bold rose-gold-grad text-white shadow-md">সব কালেকশন</button>
+        <button onclick="filterCategory('churi')" class="cat-btn px-3.5 py-2 rounded-xl text-xs font-bold bg-white text-zinc-700 border border-rose-200 hover:bg-rose-50">চুড়ি কম্বো (৳৩২০+)</button>
+        <button onclick="filterCategory('bridal')" class="cat-btn px-3.5 py-2 rounded-xl text-xs font-bold bg-white text-zinc-700 border border-rose-200 hover:bg-rose-50">বউ চুড়ি (২৪ পিস)</button>
+        <button onclick="filterCategory('hamper')" class="cat-btn px-3.5 py-2 rounded-xl text-xs font-bold bg-white text-zinc-700 border border-rose-200 hover:bg-rose-50">গিফট হ্যাম্পার</button>
+        <button onclick="filterCategory('jewelry')" class="cat-btn px-3.5 py-2 rounded-xl text-xs font-bold bg-white text-zinc-700 border border-rose-200 hover:bg-rose-50">ঝুমকা ও জুয়েলারি</button>
+      </div>
+    </div>
+
+    <!-- Product Grid rendered by JS -->
+    <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-7">
+      <!-- Populated via script -->
+    </div>
+  </section>
+
+  <!-- Custom Gift Box Builder -->
+  <section id="custom-builder" class="bg-gradient-to-br from-[#230C14] via-[#3A101E] to-[#1A090F] text-white py-14 my-8">
+    <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-12 gap-8 items-center">
+      <div class="lg:col-span-5 space-y-4">
+        <span class="bg-amber-400 text-zinc-950 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
+          🎁 Build Your Own Gift Box
+        </span>
+        <h2 class="text-2xl md:text-4xl font-extrabold leading-tight">
+          নিজের পছন্দে সাজিয়ে নিন <span class="text-amber-300">কাস্টম চুড়ি ও জুয়েলারি গিফট বক্স!</span>
+        </h2>
+        <p class="text-rose-100/80 text-sm leading-relaxed">
+          প্রিয় মানুষ বা বান্ধবীকে গিফট দিতে চান? আপনার পছন্দের চুড়ির সেট, কানের দুল এবং একটি সুন্দর চিরকুট (Gift Note) লিখে কাস্টম বক্স তৈরি করুন মাত্র <strong>৳৬৫০ টাকায়!</strong>
+        </p>
+        <div class="bg-white/10 border border-white/15 p-4 rounded-2xl space-y-2 text-xs text-amber-200">
+          <div>✓ লাক্সারি হার্ড গিফট বক্স ও রিবন প্যাকিং ফ্রি</div>
+          <div>✓ কাস্টম হ্যান্ডরিটেন উইশ কার্ড যুক্ত করার সুবিধা</div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7 bg-white text-zinc-900 p-6 md:p-8 rounded-3xl shadow-2xl border-2 border-amber-300">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-zinc-700 mb-1">১. চুড়ির ডিজাইন</label>
+            <select id="customBangleStyle" class="w-full rounded-xl border border-gray-300 px-3.5 py-2.5 text-sm font-semibold outline-none focus:border-rose-700">
+              <option value="ভেলভেট গোল্ডেন চুড়ি সেট">ভেলভেট গোল্ডেন চুড়ি সেট</option>
+              <option value="রেশমি মুক্তা চুড়ি কম্বো">রেশমি মুক্তা চুড়ি কম্বো</option>
+              <option value="অ্যান্টিক কুন্দন ব্রাইডাল চুড়ি">অ্যান্টিক কুন্দন ব্রাইডাল চুড়ি</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-zinc-700 mb-1">২. হাতের সাইজ</label>
+            <select id="customSize" class="w-full rounded-xl border border-gray-300 px-3.5 py-2.5 text-sm font-semibold outline-none focus:border-rose-700">
+              <option value="2.4 (২৪ সাইজ)">২.৪ (২৪ সাইজ)</option>
+              <option value="2.6 (২৬ সাইজ)" selected>২.৬ (২৬ সাইজ)</option>
+              <option value="2.8 (২৮ সাইজ)">২.৮ (২৮ সাইজ)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-zinc-700 mb-1">৩. জুয়েলারি আইটেম</label>
+            <select id="customJewelry" class="w-full rounded-xl border border-gray-300 px-3.5 py-2.5 text-sm font-semibold outline-none focus:border-rose-700">
+              <option value="মুক্তা ঝুমকা ইয়াররিংস">মুক্তা ঝুমকা ইয়াররিংস</option>
+              <option value="ফ্লাওয়ার রিং + ব্রেসলেট">ফ্লাওয়ার রিং + ব্রেসলেট</option>
+              <option value="গোল্ড প্লেটেড নেকলেস লকেট">গোল্ড প্লেটেড নেকলেস লকেট</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-zinc-700 mb-1">৪. গিফট চিরকুট (উইশ নোট)</label>
+            <input type="text" id="customNote" placeholder="যেমন: শুভ জন্মদিন প্রিয়..." class="w-full rounded-xl border border-gray-300 px-3.5 py-2.5 text-sm outline-none focus:border-rose-700">
+          </div>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-rose-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div>
+            <span class="text-xs text-zinc-500 block">কাস্টম গিফট হ্যাম্পার মূল্য:</span>
+            <span class="text-2xl font-extrabold text-rose-800">৳৬৫০ মাত্র</span>
+          </div>
+          <button onclick="addCustomGiftToCart()" class="w-full sm:w-auto rose-gold-grad text-white px-7 py-3.5 rounded-2xl font-bold text-sm shadow-lg hover:opacity-95 transition">
+            🎁 কাস্টম বক্সটি ব্যাগে যোগ করুন
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section id="reviews" class="max-w-7xl mx-auto px-4 py-12">
+    <div class="text-center max-w-xl mx-auto mb-10">
+      <span class="text-xs font-bold text-rose-800 bg-rose-100 px-3 py-1 rounded-full">Real Customer Love</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold mt-2">আমাদের কাস্টমারদের মতামত ❤️</h2>
+      <p class="text-xs text-zinc-500 mt-1">সব রিভিউ ফেসবুক পেজ ও সফল ডেলিভারি থেকে সংগৃহীত</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-3xl border border-rose-100 shadow-sm space-y-3">
+        <div class="flex items-center justify-between">
+          <div class="text-amber-400 font-bold">⭐⭐⭐⭐⭐</div>
+          <span class="text-[11px] text-zinc-400">২ দিন আগে</span>
+        </div>
+        <p class="text-xs md:text-sm text-zinc-700 leading-relaxed">“আগে ফেসবুকে কমেন্ট করে রিপ্লাইয়ের জন্য বসে থাকতে হতো, আর এখানে সাইজ সিলেক্ট করে অর্ডার দেওয়ার পরের দিনই হাতে পেয়েছি! প্যাকেজিং জাস্ট ওয়াও।”</p>
+        <div class="pt-3 border-t border-rose-50 flex items-center gap-3">
+          <div class="w-9 h-9 rounded-full bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-xs">SM</div>
+          <div>
+            <div class="font-bold text-sm text-zinc-900">সাদিয়া আফরিন মিম</div>
+            <div class="text-[11px] text-rose-700 font-medium">উত্তরা, ঢাকা • ৩২০ টাকার চুড়ি কম্বো</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 rounded-3xl border border-rose-100 shadow-sm space-y-3">
+        <div class="flex items-center justify-between">
+          <div class="text-amber-400 font-bold">⭐⭐⭐⭐⭐</div>
+          <span class="text-[11px] text-zinc-400">৪ দিন আগে</span>
+        </div>
+        <p class="text-xs md:text-sm text-zinc-700 leading-relaxed">“৭০০ টাকায় ২৪ পিসের বউ চুড়ি সেটটা ছবির চেয়েও বাস্তবে বেশি সুন্দর। এত দূর চট্টগ্রাম এসেছে কিন্তু বাবল র‍্যাপ বক্সের কারণে একটা চুড়িও বাঁকা হয়নি!”</p>
+        <div class="pt-3 border-t border-rose-50 flex items-center gap-3">
+          <div class="w-9 h-9 rounded-full bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-xs">TR</div>
+          <div>
+            <div class="font-bold text-sm text-zinc-900">তাসনুভা রশীদ</div>
+            <div class="text-[11px] text-rose-700 font-medium">খুলশী, চট্টগ্রাম • ভাইরাল বউ চুড়ি</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 rounded-3xl border border-rose-100 shadow-sm space-y-3">
+        <div class="flex items-center justify-between">
+          <div class="text-amber-400 font-bold">⭐⭐⭐⭐⭐</div>
+          <span class="text-[11px] text-zinc-400">১ সপ্তাহ আগে</span>
+        </div>
+        <p class="text-xs md:text-sm text-zinc-700 leading-relaxed">“বান্ধবীর জন্মদিনে গিফট করার জন্য ৯৫০ টাকার হ্যাম্পারটা নিয়েছিলাম। ডেলিভারি ম্যানের সামনে চেক করে টাকা দিয়েছি। ১০০% ট্রাস্টেড পেজ!”</p>
+        <div class="pt-3 border-t border-rose-50 flex items-center gap-3">
+          <div class="w-9 h-9 rounded-full bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-xs">FY</div>
+          <div>
+            <div class="font-bold text-sm text-zinc-900">ফারহানা ইয়াসমিন</div>
+            <div class="text-[11px] text-rose-700 font-medium">রাজশাহী সদর • লাক্সারি হ্যাম্পার</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1-Click Cash on Delivery Checkout -->
+  <section id="checkout-section" class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+    <div class="bg-white rounded-3xl shadow-2xl border-2 border-rose-800/20 overflow-hidden">
+      <div class="rose-gold-grad text-white p-6 md:p-8 text-center">
+        <span class="bg-white/20 text-amber-200 text-xs px-3.5 py-1 rounded-full font-bold">
+          🔒 ১০০% ক্যাশ অন ডেলিভারি — অগ্রিম ১ টাকাও দিতে হবে না
+        </span>
+        <h2 class="text-2xl md:text-3xl font-extrabold mt-3">
+          সরাসরি অর্ডার কনফার্ম করুন (মাত্র ৩০ সেকেন্ডে)
+        </h2>
+        <p class="text-xs md:text-sm text-rose-100 mt-1">
+          ফর্মটি পূরণ করে বাটনে চাপ দিলেই অর্ডার মেমো সরাসরি অফিসিয়াল হোয়াটসঅ্যাপে জমা হবে
+        </p>
+      </div>
+
+      <!-- Success Receipt (Hidden by default) -->
+      <div id="orderSuccessBox" class="hidden p-6 md:p-10 text-center space-y-6 bg-emerald-50/50">
+        <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto text-3xl font-bold">
+          ✓
+        </div>
+        <div>
+          <span id="orderSuccessId" class="text-xs font-extrabold uppercase tracking-wider text-emerald-700 bg-emerald-100 px-3 py-1 rounded-full">
+            Order Ready • ID #EDEL-894120
+          </span>
+          <h3 id="orderSuccessName" class="text-2xl font-extrabold text-zinc-900 mt-2">
+            ধন্যবাদ! আপনার অর্ডারটি প্রস্তুত হয়েছে 🎉
+          </h3>
+          <p class="text-sm text-zinc-600 mt-1 max-w-lg mx-auto">
+            অর্ডারটি চূড়ান্ত করতে নিচের সবুজ বাটনে ক্লিক করে WhatsApp-এ স্লিপটি পাঠিয়ে দিন।
+          </p>
+        </div>
+
+        <div id="orderSuccessSummary" class="bg-white p-5 rounded-2xl border border-emerald-200 max-w-lg mx-auto text-left text-xs space-y-2 shadow-sm">
+          <!-- Populated by script -->
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          <a id="orderSuccessWaBtn" href="#" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-2xl font-extrabold text-base shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2 transition">
+            <span>💬 WhatsApp-এ অর্ডার স্লিপ পাঠান (1-Click)</span>
+          </a>
+          <button onclick="resetOrderForm()" class="bg-white text-zinc-700 border border-zinc-300 px-6 py-4 rounded-2xl font-bold text-sm hover:bg-zinc-50">
+            নতুন অর্ডার করুন
+          </button>
+        </div>
+      </div>
+
+      <!-- Order Form -->
+      <div id="orderFormContainer" class="p-6 md:p-8 grid lg:grid-cols-12 gap-8">
+        <!-- Selected Items Column -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="flex items-center justify-between">
+            <h3 class="font-extrabold text-base text-zinc-900">
+              🛍️ আপনার বাছাইকৃত পণ্য (<span id="cartCountHeader">1</span>)
+            </h3>
+            <a href="#catalog" class="text-xs font-bold text-rose-700 underline">+ আরও যোগ করুন</a>
+          </div>
+
+          <div id="cartItemsList" class="space-y-3 max-h-80 overflow-y-auto pr-1">
+            <!-- Populated via script -->
+          </div>
+
+          <div class="bg-[#FDF2F5] p-4 rounded-2xl border border-rose-200 space-y-2 text-sm">
+            <div class="flex justify-between text-zinc-600 text-xs">
+              <span>পণ্যের মোট মূল্য:</span>
+              <span id="billSubtotal" class="font-bold text-zinc-900">৳৩২০</span>
+            </div>
+            <div class="flex justify-between text-zinc-600 text-xs">
+              <span>ডেলিভারি চার্জ:</span>
+              <span id="billDelivery" class="font-bold text-rose-800">৳৭০</span>
+            </div>
+            <div class="border-t border-rose-200 pt-2 flex justify-between text-base font-extrabold text-rose-900">
+              <span>সর্বমোট বিল (ক্যাশ অন ডেলিভারি):</span>
+              <span id="billGrandTotal">৳৩৯০</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <form id="checkoutForm" onsubmit="handleCheckout(event)" class="lg:col-span-7 space-y-4">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-zinc-800 mb-1">১. আপনার সম্পূর্ণ নাম *</label>
+              <input type="text" id="custName" required placeholder="যেমন: তাসনিম জারা" class="w-full rounded-xl border border-zinc-300 px-4 py-3 text-sm focus:border-rose-700 outline-none">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-zinc-800 mb-1">২. মোবাইল নাম্বার *</label>
+              <input type="tel" id="custPhone" required pattern="[0-9+]{11,14}" placeholder="017XXXXXXXX" class="w-full rounded-xl border border-zinc-300 px-4 py-3 text-sm focus:border-rose-700 outline-none">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-zinc-800 mb-1.5">৩. ডেলিভারি এরিয়া *</label>
+            <div class="grid grid-cols-2 gap-3">
+              <label class="flex items-center gap-2.5 p-3.5 rounded-xl border border-rose-700 bg-rose-50 text-rose-950 font-bold cursor-pointer text-xs sm:text-sm">
+                <input type="radio" name="deliveryZone" value="inside_dhaka" checked onchange="updateDeliveryZone('inside_dhaka')">
+                <span>ঢাকা সিটির ভেতরে (৳৭০)</span>
+              </label>
+              <label class="flex items-center gap-2.5 p-3.5 rounded-xl border border-zinc-200 text-zinc-700 cursor-pointer text-xs sm:text-sm">
+                <input type="radio" name="deliveryZone" value="outside_dhaka" onchange="updateDeliveryZone('outside_dhaka')">
+                <span>ঢাকার বাইরে (৳১২০)</span>
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-zinc-800 mb-1">৪. ডেলিভারি ঠিকানা (বাসা, রোড, থানা, জেলা) *</label>
+            <textarea id="custAddress" rows="2" required placeholder="আপনার বিস্তারিত ঠিকানা লিখুন যাতে সহজে ডেলিভারি দেওয়া যায়..." class="w-full rounded-xl border border-zinc-300 px-4 py-2.5 text-sm focus:border-rose-700 outline-none"></textarea>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-zinc-800 mb-1">৫. স্পেশাল নোট (ঐচ্ছিক)</label>
+            <input type="text" id="custNotes" placeholder="যেমন: বিকেল ৫টার পর ডেলিভারি..." class="w-full rounded-xl border border-zinc-300 px-4 py-2.5 text-sm focus:border-rose-700 outline-none">
+          </div>
+
+          <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold py-4 rounded-2xl text-base shadow-xl transition flex items-center justify-center gap-2">
+            <span>✓ অর্ডার কনফার্ম করুন (Cash on Delivery)</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Size Guide Modal -->
+  <div id="sizeGuideModal" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 space-y-4 shadow-2xl border border-rose-200">
+      <div class="flex items-center justify-between border-b pb-3">
+        <h3 class="font-extrabold text-lg text-zinc-900">📏 আপনার হাতের চুড়ির সঠিক সাইজ জানুন</h3>
+        <button onclick="toggleSizeGuide()" class="text-zinc-400 hover:text-zinc-800 text-2xl font-bold">&times;</button>
+      </div>
+      <p class="text-xs text-zinc-600 leading-relaxed">
+        বাসায় থাকা পুরনো চুড়ির ভেতরের ব্যাস (Inner Diameter) স্কেল দিয়ে মেপে মিলিয়ে নিন:
+      </p>
+      <div class="space-y-2 text-xs">
+        <div class="flex justify-between p-3 bg-rose-50 rounded-xl font-semibold">
+          <span>২.৪ (২৪ সাইজ - চিকন হাত)</span>
+          <span class="text-rose-800 font-bold">২.২৫ ইঞ্চি (5.7 cm)</span>
+        </div>
+        <div class="flex justify-between p-3 bg-rose-100/70 rounded-xl font-semibold border border-rose-300">
+          <span>২.৬ (২৬ সাইজ - সবচেয়ে কমন সাইজ)</span>
+          <span class="text-rose-800 font-bold">২.৩৭ ইঞ্চি (6.0 cm)</span>
+        </div>
+        <div class="flex justify-between p-3 bg-rose-50 rounded-xl font-semibold">
+          <span>২.৮ (২৮ সাইজ - একটু ভারী হাত)</span>
+          <span class="text-rose-800 font-bold">২.৫০ ইঞ্চি (6.35 cm)</span>
+        </div>
+      </div>
+      <button onclick="toggleSizeGuide()" class="w-full rose-gold-grad text-white py-3 rounded-xl font-bold text-sm shadow">
+        বুঝেছি, কেনাকাটা শুরু করি
+      </button>
+    </div>
+  </div>
+
+  <!-- Cart Slide-Over Drawer -->
+  <div id="cartDrawer" class="hidden fixed inset-0 z-50 bg-black/50 backdrop-blur-sm flex justify-end">
+    <div class="bg-white w-full max-w-md h-full flex flex-col justify-between p-6 shadow-2xl">
+      <div>
+        <div class="flex items-center justify-between border-b pb-4">
+          <h3 class="font-extrabold text-lg">🛍️ আপনার শপিং ব্যাগ</h3>
+          <button onclick="toggleCartDrawer()" class="p-1 text-zinc-400 hover:text-zinc-800 text-2xl">&times;</button>
+        </div>
+        <div id="drawerItemsList" class="mt-4 space-y-3 max-h-[60vh] overflow-y-auto">
+          <!-- Populated via script -->
+        </div>
+      </div>
+      <div class="border-t pt-4 space-y-3">
+        <div class="flex justify-between font-extrabold text-base">
+          <span>মোট পণ্য মূল্য:</span>
+          <span id="drawerSubtotal" class="text-rose-800">৳৩২০</span>
+        </div>
+        <a href="#checkout-section" onclick="toggleCartDrawer()" class="block w-full text-center rose-gold-grad text-white py-3.5 rounded-2xl font-bold text-sm shadow-lg">
+          চেকআউট ও অর্ডার কনফার্ম করুন &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/8801700000000?text=Hello%20Edel%20Bangladesh" target="_blank" class="fixed bottom-20 md:bottom-6 left-5 z-40 bg-emerald-500 hover:bg-emerald-600 text-white p-3.5 rounded-full shadow-2xl flex items-center gap-2 border-2 border-white transition">
+    <span class="text-xl">💬</span>
+    <span class="hidden md:inline text-xs font-bold">হোয়াটসঅ্যাপ সাপোর্ট</span>
+  </a>
+
+  <!-- Footer -->
+  <footer class="bg-[#180B10] text-zinc-400 py-12 text-center text-xs border-t border-rose-950">
+    <div class="max-w-5xl mx-auto px-4 space-y-4">
+      <div class="font-royal font-bold text-white text-xl tracking-widest">EDEL BANGLADESH</div>
+      <p class="text-zinc-300">চুড়ি, বউ চুড়ি ও প্রিমিয়াম গিফট হ্যাম্পার • সারা বাংলাদেশে ক্যাশ অন ডেলিভারি</p>
+      <div class="flex justify-center gap-4 text-xs text-rose-300">
+        <span>✓ নো অ্যাডভান্স পেমেন্ট</span>
+        <span>✓ বক্স খুলে দেখে নেওয়ার সুবিধা</span>
+        <span>✓ ফাস্ট ডেলিভারি</span>
+      </div>
+      <p>
+        Official Facebook Page: <a href="https://www.facebook.com/edelbangladesh/" target="_blank" class="text-amber-300 underline font-semibold">facebook.com/edelbangladesh</a>
+      </p>
+      <div class="pt-6 border-t border-white/10 text-[11px] text-zinc-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <span>© 2026 Edel Bangladesh. All Rights Reserved.</span>
+        <span>High-Converting Web Architecture Built by <strong class="text-amber-300">Sagor Ahamed (CryptoWebBuild)</strong></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky Bottom Bar -->
+  <div class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-rose-200 p-3 flex items-center justify-between md:hidden z-40 shadow-2xl">
+    <div>
+      <span class="text-[10px] text-zinc-500 block">মোট বিল (<span id="mobileCartCount">1</span>টি পণ্য)</span>
+      <span id="mobileGrandTotal" class="text-lg font-extrabold text-rose-800">৳৩৯০</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <button onclick="toggleCartDrawer()" class="bg-rose-50 text-rose-900 border border-rose-200 px-3 py-2.5 rounded-xl text-xs font-bold">
+        ব্যাগ দেখুন
+      </button>
+      <a href="#checkout-section" class="rose-gold-grad text-white px-5 py-2.5 rounded-xl font-bold text-xs shadow-md">
+        অর্ডার করুন &rarr;
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // --- CATALOG DATA ---
+    const PRODUCTS = [
+      {
+        id: 'edel-320-combo',
+        badge: '🔥 Most Viral',
+        badgeColor: 'bg-rose-600 text-white',
+        name: 'Edel সিগনেচার ভেলভেট ও মেটাল চুড়ি কম্বো',
+        price: 320,
+        originalPrice: 450,
+        category: 'churi',
+        rating: 4.9,
+        reviewsCount: 342,
+        stockLeft: 7,
+        sizes: ['2.4 (২৪ সাইজ)', '2.6 (২৬ সাইজ)', '2.8 (২৮ সাইজ)'],
+        colors: ['মেরুন গোল্ড', 'রয়্যাল গ্রিন', 'নেভি ব্লু', 'মাল্টিকালার'],
+        image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80',
+        description: 'সবচেয়ে জনপ্রিয় ৩২০ টাকার চুড়ি কম্বো! মেটাল ও ভেলভেট ফিনিশিং।'
+      },
+      {
+        id: 'edel-bou-churi-700',
+        badge: '✨ ২৪ পিসের সেট',
+        badgeColor: 'bg-amber-600 text-white',
+        name: 'ভাইরাল বউ চুড়ি (২৪ পিসের বড় সেট)',
+        price: 700,
+        originalPrice: 950,
+        category: 'bridal',
+        rating: 5.0,
+        reviewsCount: 218,
+        stockLeft: 4,
+        sizes: ['2.4 (২৪ সাইজ)', '2.6 (২৬ সাইজ)', '2.8 (২৮ সাইজ)'],
+        colors: ['ব্রাইডাল রেড-গোল্ড', 'রোজ পিঙ্ক-গোল্ড', 'অ্যান্টিক গোল্ডেন'],
+        image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80',
+        description: 'বিয়ে বা হলুদের জন্য গর্জিয়াস ২৪ পিসের বউ চুড়ি সেট।'
+      },
+      {
+        id: 'edel-gift-hamper-950',
+        badge: '🎁 Best Gift Box',
+        badgeColor: 'bg-purple-700 text-white',
+        name: 'লাক্সারি জুয়েলারি গিফট হ্যাম্পার (৪-ইন-১)',
+        price: 950,
+        originalPrice: 1290,
+        category: 'hamper',
+        rating: 4.9,
+        reviewsCount: 164,
+        stockLeft: 5,
+        sizes: ['2.4 (২৪ সাইজ)', '2.6 (২৬ সাইজ)', '2.8 (২৮ সাইজ)'],
+        colors: ['রোজ গোল্ড এডিশন', 'ক্লাসিক কুন্দন সেট'],
+        image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80',
+        description: 'চুড়ি, ঝুমকা, আংটি ও ব্রেসলেটসহ কমপ্লিট লাক্সারি গিফট বক্স!'
+      },
+      {
+        id: 'edel-western-490',
+        badge: '💎 Trending Set',
+        badgeColor: 'bg-zinc-900 text-amber-400',
+        name: 'প্রিমিয়াম ব্রেসলেট, রিং ও ইয়াররিং সেট',
+        price: 490,
+        originalPrice: 680,
+        category: 'jewelry',
+        rating: 4.8,
+        reviewsCount: 129,
+        stockLeft: 9,
+        sizes: ['Free Size (অ্যাডজাস্টেবল)'],
+        colors: ['গোল্ড প্লেটেড', 'সিলভার প্লেটেড'],
+        image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80',
+        description: 'হালকা ও মার্জিত ডিজাইনের ব্রেসলেট ও আংটি কম্বো।'
+      },
+      {
+        id: 'edel-velvet-reshmi-380',
+        badge: '🌸 ফাল্গুন স্পেশাল',
+        badgeColor: 'bg-pink-600 text-white',
+        name: 'রেশমি ও মুক্তা কাজের ফিউশন চুড়ি কম্বো',
+        price: 380,
+        originalPrice: 520,
+        category: 'churi',
+        rating: 4.9,
+        reviewsCount: 97,
+        stockLeft: 6,
+        sizes: ['2.4 (২৪ সাইজ)', '2.6 (২৬ সাইজ)', '2.8 (২৮ সাইজ)'],
+        colors: ['পিচ ও মুক্তা', 'সাদা ও সোনালি', 'টিল গ্রিন'],
+        image: 'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=800&q=80',
+        description: 'মুক্তা ও রেশমি সুতায় তৈরি কোমল ও আরামদায়ক চুড়ি।'
+      },
+      {
+        id: 'edel-couple-gift-1250',
+        badge: '👑 ফ্রি ডেলিভারি প্যাক!',
+        badgeColor: 'bg-emerald-600 text-white',
+        name: 'Edel মেগা ব্রাইডাল ও গিফট ডালা কম্বো',
+        price: 1250,
+        originalPrice: 1650,
+        category: 'hamper',
+        rating: 5.0,
+        reviewsCount: 84,
+        stockLeft: 3,
+        sizes: ['2.4 (২৪ সাইজ)', '2.6 (২৬ সাইজ)', '2.8 (২৮ সাইজ)'],
+        colors: ['রয়্যাল মেরুন ডালা', 'গোল্ডেন ব্রাইডাল ডালা'],
+        image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80',
+        description: 'চুড়ি, বউ চুড়ি, ঝুমকা ও টিকলির বিশাল ব্রাইডাল ডালা সেট।'
+      },
+      {
+        id: 'edel-kundan-jhumka-550',
+        badge: '⭐ New Launch',
+        badgeColor: 'bg-indigo-600 text-white',
+        name: 'গোল্ডেন কুন্দন ঝুমকা ও চুড়ি কম্বো',
+        price: 550,
+        originalPrice: 750,
+        category: 'jewelry',
+        rating: 4.9,
+        reviewsCount: 76,
+        stockLeft: 8,
+        sizes: ['2.4 (২৪ সাইজ)', '2.6 (২৬ সাইজ)', '2.8 (২৮ সাইজ)'],
+        colors: ['গোল্ডেন কুন্দন', 'অ্যান্টিক অক্সিডাইজড'],
+        image: 'https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80',
+        description: 'কুন্দন ঝুমকা এবং ম্যাচিং ২টি গর্জিয়াস চুড়ির সেট।'
+      },
+      {
+        id: 'edel-haldi-special-450',
+        badge: '🌻 গায়ে হলুদ স্পেশাল',
+        badgeColor: 'bg-yellow-500 text-zinc-900',
+        name: 'গায়ে হলুদ ফ্লোরাল ও মেটাল চুড়ি সেট',
+        price: 450,
+        originalPrice: 620,
+        category: 'bridal',
+        rating: 4.8,
+        reviewsCount: 112,
+        stockLeft: 5,
+        sizes: ['2.4 (২৪ সাইজ)', '2.6 (২৬ সাইজ)', '2.8 (২৮ সাইজ)'],
+        colors: ['হলুদ ও কাঁচা সোনা', 'হলুদ ও সবুজ কম্বো'],
+        image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80',
+        description: 'হলুদের সাজে ছবি তোলার জন্য নিখুঁত হলুদ-সোনালী চুড়ি সেট।'
+      }
+    ];
+
+    // --- APPLICATION STATE ---
+    let cart = [
+      {
+        ...PRODUCTS[0],
+        selectedSize: '2.6 (২৬ সাইজ)',
+        selectedColor: 'মেরুন গোল্ড',
+        qty: 1
+      }
+    ];
+    let selectedDeliveryZone = 'inside_dhaka';
+    const FREE_THRESHOLD = 1200;
+
+    // --- RENDER PRODUCTS ---
+    function renderProducts(cat = 'all') {
+      const grid = document.getElementById('productGrid');
+      const list = cat === 'all' ? PRODUCTS : PRODUCTS.filter(p => p.category === cat);
+      grid.innerHTML = list.map(p => `
+        <div class="bg-white rounded-3xl border border-rose-100 shadow-sm hover:shadow-2xl transition duration-300 overflow-hidden flex flex-col justify-between">
+          <div class="relative overflow-hidden h-60 bg-rose-50">
+            <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 ${p.badgeColor} text-[11px] font-bold px-3 py-1 rounded-full shadow">${p.badge}</span>
+            <div class="absolute bottom-2.5 left-3 bg-black/70 text-white text-[11px] px-2.5 py-0.5 rounded-full">
+              ⭐ ${p.rating} (${p.reviewsCount})
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="text-[11px] text-rose-700 font-bold">মাত্র ${p.stockLeft}টি সেট বাকি</div>
+              <h3 class="font-extrabold text-base text-zinc-900 mt-0.5">${p.name}</h3>
+              <p class="text-xs text-zinc-500 mt-1 line-clamp-2">${p.description}</p>
+            </div>
+            <div class="space-y-2 pt-2 border-t border-rose-100">
+              <div class="flex items-center justify-between text-[11px] font-bold">
+                <span>সাইজ:</span>
+                <button onclick="toggleSizeGuide()" class="text-rose-700 underline">সাইজ গাইড</button>
+              </div>
+              <div class="flex gap-1">
+                ${p.sizes.map((s, idx) => `
+                  <button onclick="selectProductSize('${p.id}', '${s}')" id="size_${p.id}_${idx}" class="size-btn-${p.id} px-2 py-1 rounded text-[11px] font-bold border ${idx === 1 || p.sizes.length === 1 ? 'bg-rose-800 text-white border-rose-800' : 'bg-rose-50 text-zinc-700 border-rose-200'}">
+                    ${s.split(' ')[0]}
+                  </button>
+                `).join('')}
+              </div>
+            </div>
+            <div class="pt-3 border-t border-rose-100 flex items-center justify-between">
+              <div>
+                <span class="text-xs text-zinc-400 line-through">৳${p.originalPrice}</span>
+                <span class="text-xl font-extrabold text-rose-800 block">৳${p.price}</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <button onclick="addToCartById('${p.id}')" class="bg-rose-100 hover:bg-rose-200 text-rose-900 p-2.5 rounded-xl font-bold" title="ব্যাগে যোগ করুন">+</button>
+                <button onclick="quickOrder('${p.id}')" class="rose-gold-grad text-white px-3.5 py-2.5 rounded-xl text-xs font-bold shadow">অর্ডার করুন</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Active size tracking
+    const chosenSizes = {};
+    function selectProductSize(id, sz) {
+      chosenSizes[id] = sz;
+      document.querySelectorAll(`.size-btn-${id}`).forEach(btn => {
+        if (btn.textContent.trim().startsWith(sz.split(' ')[0])) {
+          btn.className = `size-btn-${id} px-2 py-1 rounded text-[11px] font-bold border bg-rose-800 text-white border-rose-800`;
+        } else {
+          btn.className = `size-btn-${id} px-2 py-1 rounded text-[11px] font-bold border bg-rose-50 text-zinc-700 border-rose-200`;
+        }
+      });
+    }
+
+    function filterCategory(cat) {
+      document.querySelectorAll('.cat-btn').forEach(b => {
+        b.className = 'cat-btn px-3.5 py-2 rounded-xl text-xs font-bold bg-white text-zinc-700 border border-rose-200 hover:bg-rose-50';
+      });
+      event.target.className = 'cat-btn active px-3.5 py-2 rounded-xl text-xs font-bold rose-gold-grad text-white shadow-md';
+      renderProducts(cat);
+    }
+
+    // --- CART LOGIC ---
+    function updateCartUI() {
+      const totalQty = cart.reduce((s, i) => s + i.qty, 0);
+      const subtotal = cart.reduce((s, i) => s + i.price * i.qty, 0);
+      const isFree = subtotal >= FREE_THRESHOLD && subtotal > 0;
+      const delivery = subtotal === 0 ? 0 : (isFree ? 0 : (selectedDeliveryZone === 'inside_dhaka' ? 70 : 120));
+      const grandTotal = subtotal + delivery;
+
+      document.getElementById('cartCountBadge').textContent = totalQty;
+      document.getElementById('cartCountHeader').textContent = totalQty;
+      document.getElementById('mobileCartCount').textContent = totalQty;
+      document.getElementById('headerSubtotal').textContent = `৳${subtotal}`;
+      document.getElementById('billSubtotal').textContent = `৳${subtotal}`;
+      document.getElementById('drawerSubtotal').textContent = `৳${subtotal}`;
+      document.getElementById('billDelivery').textContent = isFree ? 'ফ্রি! (৳০)' : `৳${delivery}`;
+      document.getElementById('billGrandTotal').textContent = `৳${grandTotal}`;
+      document.getElementById('mobileGrandTotal').textContent = `৳${grandTotal}`;
+
+      // Free delivery progress
+      const needed = Math.max(0, FREE_THRESHOLD - subtotal);
+      const prog = Math.min(100, Math.round((subtotal / FREE_THRESHOLD) * 100));
+      document.getElementById('freeDeliveryBar').style.width = `${prog}%`;
+      if (isFree) {
+        document.getElementById('freeDeliveryText').innerHTML = '🎉 অভিনন্দন! আপনি সারা দেশে সম্পূর্ণ ফ্রি ডেলিভারি আনলক করেছেন!';
+      } else {
+        document.getElementById('freeDeliveryText').innerHTML = `আর মাত্র <span class="text-rose-700 font-extrabold">৳${needed}</span> টাকার পণ্য যোগ করলেই <span class="underline decoration-rose-500 font-bold">সম্পূর্ণ ফ্রি ডেলিভারি!</span>`;
+      }
+
+      // Render items in order form and drawer
+      const html = cart.map((item, idx) => `
+        <div class="flex items-center gap-3 bg-rose-50/50 p-3 rounded-2xl border border-rose-100">
+          <img src="${item.image}" class="w-12 h-12 rounded-xl object-cover shrink-0">
+          <div class="flex-1 min-w-0">
+            <h4 class="font-bold text-xs text-zinc-900 truncate">${item.name}</h4>
+            <p class="text-[11px] text-rose-800 font-medium">${item.selectedSize} | ${item.selectedColor}</p>
+            <div class="text-xs font-extrabold text-zinc-900 mt-0.5">৳${item.price * item.qty}</div>
+          </div>
+          <div class="flex items-center gap-1.5 bg-white px-2 py-1 rounded-xl border border-rose-200">
+            <button onclick="changeQty(${idx}, -1)" class="p-0.5 font-bold text-zinc-600 hover:text-rose-800">-</button>
+            <span class="text-xs font-bold w-4 text-center">${item.qty}</span>
+            <button onclick="changeQty(${idx}, 1)" class="p-0.5 font-bold text-zinc-600 hover:text-rose-800">+</button>
+          </div>
+        </div>
+      `).join('');
+
+      document.getElementById('cartItemsList').innerHTML = html || '<div class="text-xs text-zinc-400 text-center py-4">ব্যাগ খালি</div>';
+      document.getElementById('drawerItemsList').innerHTML = html || '<div class="text-xs text-zinc-400 text-center py-4">ব্যাগ খালি</div>';
+    }
+
+    function addToCartById(id) {
+      const p = PRODUCTS.find(x => x.id === id);
+      if (!p) return;
+      const sz = chosenSizes[id] || p.sizes[1] || p.sizes[0];
+      const cl = p.colors[0];
+
+      const ex = cart.find(x => x.id === id && x.selectedSize === sz && x.selectedColor === cl);
+      if (ex) { ex.qty += 1; }
+      else { cart.push({ ...p, selectedSize: sz, selectedColor: cl, qty: 1 }); }
+      updateCartUI();
+    }
+
+    function quickOrder(id) {
+      addToCartById(id);
+      document.getElementById('checkout-section').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function changeQty(idx, delta) {
+      cart[idx].qty += delta;
+      if (cart[idx].qty <= 0) { cart.splice(idx, 1); }
+      updateCartUI();
+    }
+
+    function addCustomGiftToCart() {
+      const bangle = document.getElementById('customBangleStyle').value;
+      const sz = document.getElementById('customSize').value;
+      const jewelry = document.getElementById('customJewelry').value;
+      const note = document.getElementById('customNote').value;
+
+      cart.push({
+        id: 'custom-' + Date.now(),
+        name: `কাস্টম গিফট বক্স (${bangle} + ${jewelry})`,
+        price: 650,
+        selectedSize: sz,
+        selectedColor: note ? `নোট: "${note}"` : 'লাক্সারি রিবন প্যাকিং',
+        image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80',
+        qty: 1
+      });
+      updateCartUI();
+      toggleCartDrawer();
+    }
+
+    function updateDeliveryZone(zone) {
+      selectedDeliveryZone = zone;
+      updateCartUI();
+    }
+
+    // --- CHECKOUT SUBMISSION ---
+    function handleCheckout(e) {
+      e.preventDefault();
+      if (cart.length === 0) {
+        alert('অর্ডার করতে অন্তত ১টি পণ্য যোগ করুন!');
+        return;
+      }
+      const name = document.getElementById('custName').value;
+      const phone = document.getElementById('custPhone').value;
+      const address = document.getElementById('custAddress').value;
+      const notes = document.getElementById('custNotes').value;
+
+      const orderId = 'EDEL-' + Math.floor(100000 + Math.random() * 900000);
+      const subtotal = cart.reduce((s, i) => s + i.price * i.qty, 0);
+      const isFree = subtotal >= FREE_THRESHOLD;
+      const delivery = isFree ? 0 : (selectedDeliveryZone === 'inside_dhaka' ? 70 : 120);
+      const grandTotal = subtotal + delivery;
+
+      const itemsList = cart.map((item, idx) => `${idx + 1}. ${item.name} [সাইজ: ${item.selectedSize}] × ${item.qty} = ৳${item.price * item.qty}`).join('%0A');
+      const zoneLabel = selectedDeliveryZone === 'inside_dhaka' ? 'ঢাকার ভেতরে (৳৭০)' : 'ঢাকার বাইরে (৳১২০)';
+
+      const waMsg = 
+        `✨ *NEW ORDER — EDEL BANGLADESH* ✨%0A` +
+        `🆔 *অর্ডার আইডি:* ${orderId}%0A%0A` +
+        `🛍️ *অর্ডারকৃত পণ্যসমূহ:*%0A${itemsList}%0A%0A` +
+        `📦 *পণ্যের মূল্য:* ৳${subtotal}%0A` +
+        `🚚 *ডেলিভারি চার্জ:* ${isFree ? 'ফ্রি! (৳০)' : '৳' + delivery} (${zoneLabel})%0A` +
+        `💰 *মোট বিল:* *৳${grandTotal}*%0A%0A` +
+        `👤 *কাস্টমার:* ${name}%0A` +
+        `📞 *মোবাইল:* ${phone}%0A` +
+        `📍 *ঠিকানা:* ${address}%0A` +
+        (notes ? `📝 *নোট:* ${notes}` : '');
+
+      document.getElementById('orderFormContainer').classList.add('hidden');
+      document.getElementById('orderSuccessBox').classList.remove('hidden');
+      document.getElementById('orderSuccessId').textContent = `Order Ready • ID #${orderId}`;
+      document.getElementById('orderSuccessName').textContent = `ধন্যবাদ ${name}! আপনার অর্ডারটি প্রস্তুত হয়েছে 🎉`;
+
+      document.getElementById('orderSuccessSummary').innerHTML = `
+        <div class="font-bold text-sm text-zinc-900 border-b pb-2">অর্ডার সামারি:</div>
+        ${cart.map(item => `
+          <div class="flex justify-between text-zinc-700">
+            <span>${item.name} (${item.selectedSize}) × ${item.qty}</span>
+            <span class="font-bold">৳${item.price * item.qty}</span>
+          </div>
+        `).join('')}
+        <div class="border-t pt-2 flex justify-between font-extrabold text-sm text-rose-800">
+          <span>ডেলিভারি ম্যানকে পরিশোধযোগ্য মোট বিল:</span>
+          <span>৳${grandTotal}</span>
+        </div>
+      `;
+
+      document.getElementById('orderSuccessWaBtn').href = `https://wa.me/8801700000000?text=${waMsg}`;
+      document.getElementById('checkout-section').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function resetOrderForm() {
+      document.getElementById('orderFormContainer').classList.remove('hidden');
+      document.getElementById('orderSuccessBox').classList.add('hidden');
+    }
+
+    // --- MODALS TOGGLE ---
+    function togglePitchModal() {
+      document.getElementById('pitchModal').classList.toggle('hidden');
+    }
+    function toggleSizeGuide() {
+      document.getElementById('sizeGuideModal').classList.toggle('hidden');
+    }
+    function toggleCartDrawer() {
+      document.getElementById('cartDrawer').classList.toggle('hidden');
+    }
+
+    // Countdown timer
+    setInterval(() => {
+      const now = new Date();
+      const h = String(23 - now.getHours()).padStart(2, '0');
+      const m = String(59 - now.getMinutes()).padStart(2, '0');
+      const s = String(59 - now.getSeconds()).padStart(2, '0');
+      const el = document.getElementById('countdown');
+      if (el) el.textContent = `${h}:${m}:${s}`;
+    }, 1000);
+
+    // Initial render
+    renderProducts();
+    updateCartUI();
+  </script>
+</body>
 </html>
