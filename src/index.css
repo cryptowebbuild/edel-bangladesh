@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Hind Siliguri', 'Plus Jakarta Sans', sans-serif;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background-color: #FFFDF9;
+  color: #1D1115;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-royal {
+  font-family: 'Cinzel', serif;
+}
+
+.rose-gold-grad {
+  background: linear-gradient(135deg, #8E1B3A 0%, #590D22 100%);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 50%, #F3E5AB 100%);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF5F7;
+}
+::-webkit-scrollbar-thumb {
+  background: #C78295;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8E1B3A;
+}
